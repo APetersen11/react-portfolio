@@ -1,1 +1,9 @@
-// images of 6 applications with links to both deployed applications and github repo
+import React, { Component } from 'react'
+
+export default class index extends Component {
+  render() {
+    return (
+      <div>Portfolio</div>
+    )
+  }
+}
