@@ -1,9 +1,26 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
+import Project from '../Project'
 
-export default class index extends Component {
-  render() {
+function Portfolio() {
+
+    // object w all project info
+
+    const [projects] = useState([
+        {
+
+        }
+    ])
+
     return (
-      <div>Portfolio</div>
+        <div>
+            <div className='projectCards'>
+                {projects.map((project) => (
+                    < Project project={Project} />
+                ))}
+            </div>
+        </div>
     )
-  }
+
 }
+
+export default Portfolio

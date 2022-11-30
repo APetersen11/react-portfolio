@@ -4,6 +4,7 @@
 import React, { Component } from 'react'
 import currentPhoto from '../../assets/currentPhoto.jpg'
 
+
 export default class index extends Component {
   render() {
     return (
