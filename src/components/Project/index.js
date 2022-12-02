@@ -1,6 +1,7 @@
 //template
 
 import React from 'react'
+import bootstrap from 'bootstrap' 
 
 function Project({ project }) {
 

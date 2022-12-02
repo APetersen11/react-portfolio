@@ -5,6 +5,7 @@ import Resume from '../Resume';
 import Contact from '../Contact';
 import Portfolio from '../Portfolio';
 import Footer from '../Footer';
+import bootstrap from 'bootstrap' 
 
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
