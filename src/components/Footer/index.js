@@ -1,4 +1,4 @@
-// text or icon links to 3 platform (github, linkedin, and a third profile)
+// text or icon links to 3 platforms (github, linkedin, and a third profile)
 import React, { Component } from 'react'
 import '../../App.css'
 

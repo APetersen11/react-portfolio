@@ -1,5 +1,3 @@
-
-
 // link to downloadable resume and list of developers proficiencies 
 
 import React, { Component } from 'react'
