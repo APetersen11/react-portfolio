@@ -41,52 +41,67 @@ function ContactForm() {
   };
 
   return (
-    <body className="bg-dark">
+    <body className="bg-dark mx-auto">
       {/* header image */}
       <div className="container-fluid">
-        <img className="img-fluid mw-75 mx-auto d-block" src={contactHeader} />
+        <img className="img-fluid mw-75 d-block" src={contactHeader} />
       </div>
-      <div className="container">
+      <div className="container mx-auto">
         <div className="row row-cols-1 row-cols-md-2 g-4">
-          <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
-              <label className="text-info" htmlFor="name">
-                Name:
-              </label>
-              <input
-                type="text"
-                name="name"
-                defaultValue={name}
-                onBlur={handleChange}
-              />
+          <div className="col mx-auto p-4">
+            <div className="card border-info bg-dark p-3 align-items-center">
+              <form id="contact-form" onSubmit={handleSubmit}>
+                <div className= 'p-3 align-items-center'>
+                  <label className="text-info p-2" htmlFor="name">
+                    Name:
+                  </label>
+                  <input
+                    type="text"
+                    name="Name"
+                    defaultValue={name}
+                    onBlur={handleChange}
+                  />
+                </div>
+                <div className= 'p-3 align-items-center'>
+                  <label className="text-info p-2" htmlFor="email">
+                    Email address:
+                  </label>
+                  <input
+                    type="email"
+                    name="email"
+                    defaultValue={email}
+                    onBlur={handleChange}
+                  />
+                </div>
+                <div className= 'p-3 align-items-center'>
+                  <label className="text-info p-2 align-top" htmlFor="message">
+                    Message:
+                  </label>
+                  <textarea
+                    name="Message"
+                    rows="5"
+                    defaultValue={message}
+                    onBlur={handleChange}
+                  />
+                </div>
+                {errorMessage && (
+                  <div>
+                    <p className="error-text text-info">{errorMessage}</p>
+                  </div>
+                )}
+                <div className="text-center">
+                <button
+                  data-testid="button"
+                  type="submit"
+                  className="btn btn-outline-info"
+                >
+                  Submit
+                  
+                </button>
+                </div>
+              </form>
             </div>
-            <div>
-              <label htmlFor="email">Email address:</label>
-              <input
-                type="email"
-                name="email"
-                defaultValue={email}
-                onBlur={handleChange}
-              />
-            </div>
-            <div>
-              <label htmlFor="message">Message:</label>
-              <textarea
-                name="message"
-                rows="5"
-                defaultValue={message}
-                onBlur={handleChange}
-              />
-            </div>
-            {errorMessage && (
-              <div>
-                <p className="error-text">{errorMessage}</p>
-              </div>
-            )}
-            <button data-testid="button" type="submit">
-              Submit
-            </button>
-          </form>
+          </div>
         </div>
       </div>
     </body>
