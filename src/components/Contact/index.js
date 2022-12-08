@@ -43,7 +43,7 @@ function ContactForm() {
   return (
     <body className="bg-dark mx-auto">
       {/* header image */}
-      <div className="container-fluid">
+      <div className="img-fluid mw-75 mx-auto d-block">
         <img className="img-fluid mw-75 d-block" src={contactHeader} />
       </div>
       <div className="container mx-auto">
