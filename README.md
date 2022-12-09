@@ -2,6 +2,11 @@
 
 This application was built to showcase the work done by Alyssa Petersen and to help potential employees get to know her. It provides a potential employer information about her, examples of her work, a form to contact her, a downloadable resume, as well as several social media profiles to contact her on.
 
+[You can visit the repo here.](https://github.com/APetersen11/react-portfolio)
+[And the deployed application here.](https://apetersen11.github.io/react-portfolio/)
+
+ 
+
 ## Table of Contents
 
 - [Usage](#usage)
