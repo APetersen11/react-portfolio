@@ -6,13 +6,13 @@ function Footer() {
   return (
     
     <div className="d-flex justify-content-center text-info">
-            <a href="" target="_blank" className="btn btn-outline-dark mx-auto position-relative col-4">
+            <a href="https://github.com/APetersen11" target="_blank" className="btn btn-outline-dark mx-auto position-relative col-4">
               <i className="bi bi-github text-info" />
             </a>
-            <a href="" target="_blank" className="btn btn-outline-dark mx-auto position-relative col-4">
+            <a href="https://www.linkedin.com/in/alyssa-petersen-855000246/" target="_blank" className="btn btn-outline-dark mx-auto position-relative col-4">
               <i className="bi bi-linkedin text-info" />
             </a> 
-            <a href="" target="_blank" className="btn btn-outline-dark mx-auto position-relative col-4">
+            <a href="https://twitter.com/Alyssa_Jill" target="_blank" className="btn btn-outline-dark mx-auto position-relative col-4">
               <i className="bi bi-twitter text-info" />
             </a>
  

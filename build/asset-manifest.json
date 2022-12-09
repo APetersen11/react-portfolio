@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77624be7.css",
+    "main.js": "/static/js/main.87a2eddb.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/launch.png": "/static/media/launch.bb9fc11a74fcd2ae6d17.png",
+    "static/media/currentPhoto.png": "/static/media/currentPhoto.18f35887f7645a90136a.png",
+    "static/media/forget.png": "/static/media/forget.a6db040c43ce66344ee5.png",
+    "static/media/weather.png": "/static/media/weather.30791b8ec22bbc8b9442.png",
+    "static/media/contact-header.png": "/static/media/contact-header.9b3b22436e37640d08f7.png",
+    "static/media/resume-header.png": "/static/media/resume-header.189b8ec5139f507716d6.png",
+    "static/media/hot-shots.png": "/static/media/hot-shots.f342a1afd41f8895bea0.png",
+    "static/media/portfolio-header.png": "/static/media/portfolio-header.71e3ba2a1dd4cdec2c22.png",
+    "static/media/remembrall.png": "/static/media/remembrall.52e91141034b515e8664.png",
+    "static/media/flourish.png": "/static/media/flourish.483501474796cb79dfc6.png",
+    "static/media/Alyssa-Petersen-Resume.pdf": "/static/media/Alyssa-Petersen-Resume.31d6bbcec772537785d4.pdf",
+    "index.html": "/index.html",
+    "main.77624be7.css.map": "/static/css/main.77624be7.css.map",
+    "main.87a2eddb.js.map": "/static/js/main.87a2eddb.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77624be7.css",
+    "static/js/main.87a2eddb.js"
+  ]
+}
