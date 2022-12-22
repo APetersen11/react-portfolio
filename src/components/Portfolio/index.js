@@ -5,11 +5,17 @@ import HeaderImage from '../../assets/portfolio-header.png';
 import LaunchImage from '../../assets/applicationPhotos/launch.png'
 import HotShotsImage from '../../assets/applicationPhotos/hot-shots.png'
 import WeatherWizardImage from '../../assets/applicationPhotos/weather.png'
-import FlourishImage from '../../assets/applicationPhotos/flourish.png'
 import ForgetImage from '../../assets/applicationPhotos/forget.png'
 import RememberImage from '../../assets/applicationPhotos/remembrall.png'
+import ArijImage from '../../assets/applicationPhotos/arij.png'
 
 const projects = [
+  {
+    image: ArijImage,
+    title: "Arij",
+    appLink: "https://pacific-cliffs-88620.herokuapp.com/",
+    repoLink: "https://github.com/Jstelzl/arij ",
+  },
     {
       image: LaunchImage,
       title: "Launch!",
@@ -27,12 +33,6 @@ const projects = [
       title: "Weather Wizard",
       appLink: "https://apetersen11.github.io/carmen-sandiego/",
       repoLink: "https://github.com/APetersen11/carmen-sandiego",
-    },
-    {
-      image: FlourishImage,
-      title: "Flourish and Blotts",
-      appLink: "https://powerful-forest-63607.herokuapp.com",
-      repoLink: "https://github.com/APetersen11/Flourish-and-Blotts",
     },
     {
       image: ForgetImage,
